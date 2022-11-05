@@ -1,0 +1,36 @@
+body{
+    background: rgba(237, 233, 223);
+    margin: 0px;
+    padding-left: 200px;
+}
+
+header{
+    background: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#top{
+    margin: 40px;
+}
+
+.sidebar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 100vh;
+    background: yellow;
+    z-index: 2;
+   padding-top: 45vh;
+}
+
+@media (max-width: 1100px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+
+
