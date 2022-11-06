@@ -1,13 +1,21 @@
 body{
-    background: rgb(209, 176, 92);
+    background: rgb(255,255,255 );
     margin: 0px;
     padding-left: 200px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.globalcontainer{
+  background-color: blueviolet;
+  display: flexbox;
 }
 
 header{
     background:rgb(223, 223, 243);
     margin: 0px;
     padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: oblique;
 }
  
 
@@ -27,7 +35,7 @@ header{
 
 #imgID{
   width: 200px;
-  height: 500px;
+  height: 700px;
 }
 
 
